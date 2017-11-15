@@ -1,3 +1,84 @@
-h1 {
-  color: orange;
+body {
+  background-color: rgb(222,222,222);
+}
+
+.header {
+  position: relative;
+
+  height: 100px;
+}
+
+.logo-box {
+  background-color: rgb(215,215,215);
+  color:grey;
+  position: absolute;
+  left: 20px;
+  width: 175px;
+  padding-left: 20px;
+  padding-top: 1px;
+  padding-bottom: 5px;
+  line-height: 80%;
+  margin-top: 20px;
+}
+.logo-box-subtext {
+  font-size: small;
+  letter-spacing: 2px;
+}
+.site-search {
+  position: absolute;
+  float: right;
+  right:20px;
+  top: 45px;
+}
+.site-search-input {
+  margin-right: 10px;
+}
+.search-button {
+  border: black 1px solid;
+  border-radius: 10px;
+  background-color: white;
+}
+.header-links {
+  position: relative;
+  float: right;
+  padding-right: 10px;
+  padding-left: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: blue;
+}
+
+.main-navigation {
+  background-color: rgb(233,233,233);
+
+  height: 30px;
+  margin-top:20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    height: inherit;
+
+    width: 30%;
+
+}
+.nav-tab-item {
+
+  background-color: yellow;
+}
+
+
+
+
+.main-navigation  li {
+
+    display: inline;
+    border-right: solid black 1px;
+
+    padding: 10px;
+    padding-top: 10px;
+}
+li:last-child {
+    border-right: none;
 }
