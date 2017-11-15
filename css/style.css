@@ -4,7 +4,6 @@ body {
 
 .header {
   position: relative;
-
   height: 100px;
 }
 
@@ -30,10 +29,10 @@ body {
   right:20px;
   top: 45px;
 }
-.site-search-input {
+input {
   margin-right: 10px;
 }
-.search-button {
+.button {
   border: black 1px solid;
   border-radius: 10px;
   background-color: white;
@@ -50,35 +49,79 @@ body {
 
 .main-navigation {
   background-color: rgb(233,233,233);
-
   height: 30px;
-  margin-top:20px;
+  margin: 10px;
 }
 ul {
+  box-sizing: border-box;
     list-style-type: none;
-    margin: 0;
+    margin-top: 10px;
     overflow: hidden;
     height: inherit;
-
-    width: 30%;
-
+    width: 500px;
+    padding-top: 5px;
 }
-.nav-tab-item {
-
-  background-color: yellow;
-}
-
-
-
-
 .main-navigation  li {
-
     display: inline;
-    border-right: solid black 1px;
-
-    padding: 10px;
-    padding-top: 10px;
+    border-right: solid rgb(215,215,215) 1px;
+    padding: 15px 10px 10px;
 }
-li:last-child {
-    border-right: none;
+main{
+  position: relative;
+  box-sizing: border-box;
+  margin: 10px;
+  text-align: center;
+}
+
+main p {
+  padding: 100px;
+}
+
+.slideshow {
+  position: relative;
+  min-width: 60%;
+  background-color: rgb(215,215,215);
+  float: left;
+}
+
+aside {
+  position: relative;
+  box-sizing: border-box;
+  width:40%;
+  float: left;
+  top:0;
+  padding: 20px;
+  padding-right: 50px;
+  text-align: left;
+}
+
+.three-sections {
+  box-sizing: border-box;
+  clear: both;
+}
+.newsletter, .from-the-blog, .sign-up{
+  
+  margin-top: 10px;
+  box-sizing: border-box;
+  width: 33%;
+  float: left;
+  padding: 15px;
+  border-right: solid 1px rgb(215,215,215);
+  border-top: solid 1px rgb(215,215,215);
+
+}
+
+.newsletter h4{
+  display: inline;
+}
+
+.sign-up-form{
+  display: inline-block;
+}
+
+footer {
+  font-size: small;
+  margin: 10px;
+  max-width: 50%;
+  letter-spacing: 50%;
 }
