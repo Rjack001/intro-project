@@ -1,1 +1,59 @@
+<<<<<<< HEAD
 h1 {color: red;}
+=======
+
+/*Test*/
+*
+{
+  background-color: lightgrey;
+}
+
+header
+{
+  height: 100px;
+}
+
+#contact-label
+{
+  position: absolute;
+  right: 20px;
+}
+
+#search-button
+{
+  border-radius: 25px;
+  width: 80;
+  height: 25px;
+  background-color: white;
+}
+
+nav
+{
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 35px;
+}
+nav ul
+{
+  margin: 0;
+  list-style-type: none;
+  background-color: white;
+  padding-left: 10px;
+}
+
+nav ul li
+{
+  display: inline;
+  border-right: 1px solid grey;
+  background-color: white;
+  padding-right: 3px;
+  font-size: 25px;
+}
+
+footer
+{
+  position: absolute;
+  bottom: 20px;
+}
+>>>>>>> 464e57807369b3840f8c0da782692b3f3debcf94
