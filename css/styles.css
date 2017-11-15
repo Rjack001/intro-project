@@ -4,6 +4,10 @@ body{
   font-size: 16px
 }
 
+img{
+  width: 100%;
+}
+
 main{
   width: 1538px;
   margin:0 auto;
@@ -17,7 +21,6 @@ main{
 .logo{
   width: 153px;
   height: 60px;
-  background-color: #6bd510;
   float: left;
   margin-top: 15px
 }
@@ -71,7 +74,8 @@ input{
 .hero-img{
   width: 1023px;
   height: 350px;
-  background-color: #bada55;
+  background-color: ;
+  overflow: hidden;
 }
 
 .hero .layout{
@@ -112,9 +116,9 @@ h5 span{
 }
 
 .announcement-img{
-  height: 250px;
+  height: auto;
   margin: 5px 0;
-  background-color: #bada55;
+  /*background-color: #bada55;*/
 }
 
 .blog-post{
@@ -130,7 +134,7 @@ h5 span{
   width: 50px;
   height: 50px;
   margin: 0 15px 15px 0;
-  background-color: #bada55;
+  /*background-color: #bada55;*/
   float: left;
 }
 
