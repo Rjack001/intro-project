@@ -2,27 +2,28 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Intro-Project</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-
-    <header class="header">
+    <header class="clearfix">
       <div class="logo-box">
           <h2>YourSite.com <span class="logo-box-subtext"> Website Prototype<span></h2>
       </div>
-      <a href="" class="header-links">Log In</a>
-      <a href="" class="header-links">Contact Us</a>
-
-      <form class="site-search" action="index.html" method="post">
-        <input  type="text" name="searchField" value="">
-        <input class="button" type="submit" name="" value="Search"></input>
-      </form>
+      <div class="header-nav">
+        <a href="#" class="header-links">Log In</a>
+        <a href="#" class="header-links">Contact Us</a>
+        <form class="site-search" action="index.html" method="post">
+          <input  type="text" name="searchField" value="">
+          <input class="button" type="submit" name="" value="Search"></input>
+        </form>
+      </div>
     </header>
+
     <nav class="main-navigation">
       <ul class="nav-tabs">
-        <li class="nav-tab-item">
+        <li>
           About Us
         </li>
         <li>
@@ -39,43 +40,68 @@
         </li>
       </ul>
     </nav>
-    <main class="main">
-      <section class="slideshow">
-        <p>
-          [slideshow]
-        </p>
+    <main>
+      <section>
+        <img class="slideshow" src="" alt="">
       </section>
       <aside>
         <h3>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a sollicitudin neque, eu suscipit leo.
         </h3>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a sollicitudin neque, eu suscipit leo. Phasellus ac nunc congue erat bibendum porttitor cursus viverra nunc. Cras sollicitudin rhoncus ex ut tempus. Nullam metus justo, semper ut vestibulum ac, feugiat in ipsum. Ut interdum consectetur venenatis. Curabitur maximus dui libero, vel imperdiet ante consequat nec.
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a sollicitudin neque, eu suscipit leo. Phasellus ac nunc congue erat bibendum porttitor cursus viverra nunc. Cras sollicitudin rhoncus ex ut tempus. Nullam metus justo, semper ut vestibulum ac, feugiat in ipsum. Ut interdum consectetur venenatis. Curabitur maximus dui libero, vel imperdiet ante consequat nec.
+        </p>
+        <a href="#">Read more</a>
       </aside>
     </main>
-
-<div class="three-sections">
+    <div class="three-sections">
       <section class="newsletter">
         <h4>Newsletter</h4> | Janurary, 2001
         <p><h4>Newsletter Title</h4></p>
+          <div class="newsletter-content clearfix">
+            <img src="dog.jpg" class="newsletter-img" alt="" />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a sollicitudin neque, eu suscipit leo. Phasellus ac nunc congue erat bibendum porttitor cursus viverra nunc. Cras sollicitudin rhoncus ex ut tempus. Nullam metus justo, semper ut vestibulum ac, feugiat in ipsum. Ut interdum consectetur venenatis. Curabitur maximus dui libero, vel imperdiet ante consequat nec.
+                <span><a href="#"> Read More</a></span>
+              </p>
+          </div>
       </section>
       <section class="from-the-blog">
         <h4>From the Blog</h4>
+          <span class="blog-post-title">
+            <div class="blog-content">
+              <p><span>Blog Post Title </span><br />
+                January 1, 2011 by <a href="#">John</a>
+              </p>
+            </span>
+
+          <img src="dog.jpg" class="blog-img" alt="" />
+          <!--<p class="top-text">[img]</p> -->
+          <p class="blog-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a sollicitudin neque, eu suscipit leo. Phasellus ac nunc congue erat bibendum porttitor cursus viverra nunc. Cras sollicitudin rhoncus ex ut tempus. Nullam metus justo, semper ut vestibulum ac, feugiat in ipsum. Ut interdum consectetur venenatis. Curabitur maximus dui libero, vel imperdiet ante consequat nec.
+            <span class="from-the-blog-link"><a href="#"> Read More</a></span>
+          </p>
+      </div>
+        <div class="blog-content lower">
+          <p><span>Blog Post Title </span><br/>
+            January 1, 2011 by <a href="#">John</a>
+          </p>
+          <img src="dog.jpg" class="blog-img" alt="" />
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a sollicitudin neque, eu suscipit leo. Phasellus ac nunc congue erat bibendum porttitor cursus viverra nunc. Cras sollicitudin rhoncus ex ut tempus. Nullam metus justo, semper ut vestibulum ac, feugiat in ipsum. Ut interdum consectetur venenatis. Curabitur maximus dui libero, vel imperdiet ante consequat nec.
+            <span class="from-the-blog-link"><a href="#"> Read More</a></span>
+          </p>
+        </div>
       </section>
       <section class="sign-up">
         <h4>Sign Up</h4>
         <p>Lorem ipsum dolor sit amet, consectetur</p>
-
         <form class="sign-up-form" action="index.html" method="post">
-          <input type="text" name="searchField" value="Your Name" />
-          <input type="text" name="searchField" value="Your Email Address" />
-          <input class="button" type="submit" value="Submit" />
+          <input class="sign-up-input" type="text" name="searchField" value="Your Name" />
+          <input class="sign-up-input" type="text" name="searchField" value="Your Email Address" />
+          <input class="sign-up-button button" type="submit" value="Submit" />
         </form>
-      </section>
-    </div>
-    <footer>
+    </div> <!-- end three-section div -->
+    <footer class="clearfix">
       <p>&#169; 2011 Your Company | New York, NY | 800-123-4567</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a sollicitudin neque, eu suscipit leo. Phasellus ac nunc congue erat bibendum porttitor cursus viverra nunc. Cras sollicitudin rhoncus ex ut tempus. Nullam metus justo, semper ut vestibulum ac</p>
-
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a sollicitudin neque, eu suscipit leo. Phasellus ac nunc congue erat bibendum porttitor cursus viverra nunc. Cras sollicitudin rhoncus ex ut tempus. Nullam metus justo, semper ut vestibulum ac
+      </p>
     </footer>
   </body>
 </html>
