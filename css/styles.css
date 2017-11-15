@@ -1,11 +1,22 @@
 *
 {
-  background-color: lightgrey;
+  background-color:#D3D3D3;
+}
+
+a:visited
+{
+  color: blue;
 }
 
 header
 {
   height: 100px;
+}
+
+#logo {
+  position:absolute;
+  top: 10px;
+  left: 10px;
 }
 
 #contact-label
@@ -14,7 +25,12 @@ header
   right: 20px;
 }
 
-#search-button
+#contact-label p
+{
+  margin-left: 120px;
+}
+
+.submit-button
 {
   border-radius: 25px;
   width: 80;
@@ -22,18 +38,24 @@ header
   background-color: white;
 }
 
-nav
+.submit-box
 {
   background-color: white;
+}
+
+nav
+{
+  background-color: #F0F0F0;
   margin-left: 20px;
   margin-right: 20px;
   height: 35px;
 }
+
 nav ul
 {
   margin: 0;
   list-style-type: none;
-  background-color: white;
+  background-color: #F0F0F0;
   padding-left: 10px;
   position: relative;
   padding-top: 10px;
@@ -42,17 +64,89 @@ nav ul
 nav ul li
 {
   display: inline;
-  background-color: white;
+  background-color: #F0F0F0;
   padding-right: 10px;
   padding-left: 5px;
   border-right: 1px solid grey;
   padding-top: 9px;
-  top: 10px
+  top: 10px;
   padding-bottom: 6px;
 }
+
+.top-section
+{
+  margin-top: 20px;
+}
+
+.slideshow
+{
+  float: left;
+  width: 60%;
+  height: 200px;
+  background-color: #A9A9A9;
+  margin-left: 20px;
+}
+
+.slideshow-text
+{
+  position: relative;
+  top: 80px;
+  text-align: center;
+  background-color: #A9A9A9;
+}
+
+aside
+{
+  float: right;
+  position: absolute;
+  right: 20px;
+  width: 30%;
+}
+
+.bottom-section
+{
+    float: left;
+    clear: left;
+    position: relative;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*height: 300px;*/
+    width:100%;
+}
+
+.newsletter
+{
+  float: left;
+  display: inline-block;
+  width: 33%;
+}
+
+.blog
+{
+  display: inline-block;
+  width: 33%;
+}
+
+.blog-post
+{
+
+}
+
+.sign-up
+{
+  float: right;
+  display: inline-block;
+  width: 33%;
+}
+
 
 footer
 {
   position: absolute;
+  margin-left: 20px;
   bottom: 20px;
+
 }
