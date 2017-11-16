@@ -8,21 +8,21 @@ a:visited
   color: blue;
 }
 
+/*header*/
 header
 {
-  height: 100px;
+  /*height: 100px;*/
 }
 
 #logo {
-  position:absolute;
-  top: 10px;
-  left: 10px;
+margin-top: 10px;
+margin-left: 10px;
 }
 
 #contact-label
 {
-  position: absolute;
-  right: 20px;
+float: right;
+margin-right: 20px;
 }
 
 #contact-label p
@@ -33,7 +33,7 @@ header
 .submit-button
 {
   border-radius: 25px;
-  width: 80;
+  width: 80px;
   height: 25px;
   background-color: white;
 }
@@ -43,11 +43,13 @@ header
   background-color: white;
 }
 
+/*navbar*/
 nav
 {
   background-color: #F0F0F0;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0px 20px;
+  /*margin-left: 20px;
+  margin-right: 20px;*/
   height: 35px;
 }
 
@@ -56,9 +58,8 @@ nav ul
   margin: 0;
   list-style-type: none;
   background-color: #F0F0F0;
-  padding-left: 10px;
+  padding: 10px 0 0 10px;
   position: relative;
-  padding-top: 10px;
 }
 
 nav ul li
@@ -73,6 +74,7 @@ nav ul li
   padding-bottom: 6px;
 }
 
+/*top section*/
 .top-section
 {
   margin-top: 20px;
@@ -103,10 +105,11 @@ aside
   width: 30%;
 }
 
+/*bottom section*/
 .bottom-section
 {
-    float: left;
-    clear: left;
+    /*float: left;
+    clear: left;*/
     position: relative;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
@@ -130,10 +133,10 @@ aside
   width: 33%;
 }
 
-.blog-post
+/*.blog-post
 {
-
-}
+this is to style the actual blog posts
+}*/
 
 .sign-up
 {
@@ -142,11 +145,24 @@ aside
   width: 33%;
 }
 
-
+/*footer*/
 footer
 {
   position: absolute;
   margin-left: 20px;
   bottom: 20px;
 
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
 }
