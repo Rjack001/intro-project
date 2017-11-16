@@ -3,33 +3,6 @@
   background-color:#D3D3D3;
 }
 
-a:visited
-{
-  color: blue;
-}
-
-/*header*/
-header
-{
-  /*height: 100px;*/
-}
-
-#logo {
-margin-top: 10px;
-margin-left: 10px;
-}
-
-#contact-label
-{
-float: right;
-margin-right: 20px;
-}
-
-#contact-label p
-{
-  margin-left: 120px;
-}
-
 .submit-button
 {
   border-radius: 25px;
@@ -43,13 +16,31 @@ margin-right: 20px;
   background-color: white;
 }
 
+/*header*/
+#logo {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  width:140px;
+}
+
+#contact-label
+{
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+#contact-label p
+{
+  margin-left: 120px;
+}
+
 /*navbar*/
 nav
 {
   background-color: #F0F0F0;
-  margin: 0px 20px;
-  /*margin-left: 20px;
-  margin-right: 20px;*/
+  margin: 10px 20px;
   height: 35px;
 }
 
@@ -72,6 +63,13 @@ nav ul li
   padding-top: 9px;
   top: 10px;
   padding-bottom: 6px;
+}
+
+nav a
+{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 /*top section*/
@@ -108,61 +106,70 @@ aside
 /*bottom section*/
 .bottom-section
 {
-    /*float: left;
-    clear: left;*/
-    position: relative;
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    /*height: 300px;*/
+    margin: 20px 20px 0;
     width:100%;
+    box-sizing: border-box;
 }
 
 .newsletter
 {
+  /*float: left;*/
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.newsletter:nth-child(2)
+{
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+/*  temporary solution to borders not being long enough
+*/  height: 426px; 
+
+}
+
+.newsletter a
+{
+  float:right;
+}
+
+.newsletter span
+{
+  font-weight: bold;
+}
+.blog-post img
+{
+  width: 50px;
+  height: 50px;
   float: left;
-  display: inline-block;
-  width: 33%;
+  margin: 0 15px 15px 0;
 }
 
-.blog
-{
-  display: inline-block;
-  width: 33%;
-}
 
-/*.blog-post
-{
-this is to style the actual blog posts
-}*/
-
-.sign-up
-{
-  float: right;
-  display: inline-block;
-  width: 33%;
-}
 
 /*footer*/
 footer
 {
-  position: absolute;
   margin-left: 20px;
   bottom: 20px;
-
 }
-.clearfix:before,
-.clearfix:after {
+
+.clearfix:before, .clearfix:after 
+{
   content: " ";
   display: table;
 }
 
-.clearfix:after {
+.clearfix:after 
+{
   clear: both;
 }
 
-.clearfix {
+.clearfix 
+{
   *zoom: 1;
 }
