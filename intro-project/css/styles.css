@@ -1,5 +1,5 @@
 body {
- background-color: rgb(222, 222, 222); /*use hex instead*/
+ background-color: #dedede; /*use hex instead*/
  font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,7 +18,7 @@ aside {
 .header {
  display: grid;
  grid-template-columns: 80% 20%;
- background-color: rgb(222, 222, 222);
+ background-color: #dedede;
  height: 150px;
 }
 
@@ -27,7 +27,7 @@ aside {
  left: 15px;
  top: 25px;
  color: grey;
- background-color: rgb(215, 215, 215);
+ background-color: #d7d7d7;
  width: 200px;
  text-align: center;
  padding: 5px 20px;
@@ -35,13 +35,11 @@ aside {
 }
 
 .header-box h3 {
- background-color: none;
  margin-bottom: 10px;
 }
 
 .header-box h4 {
  position: relative;
- background-color: none;
  margin-top: 10px;
 }
 
@@ -70,11 +68,11 @@ aside {
 }
 
 .login a:link {
-  text-decoration:  none;
+  text-decoration: none;
   }
 
 .submit-button {
- background: #f5f5f5 ;
+ background: #f5f5f5;
  color: black;
  border: 1px solid black;
  border-radius: 20px;
@@ -85,7 +83,7 @@ aside {
 
 /*NavBar*/
 .navbar {
- background: #F5F5F5 ;
+ background: #F5F5F5;
  margin: 10px;
 }
 
@@ -102,7 +100,7 @@ aside {
 /*slideshow*/
 .slideshow-wrap {
  margin: 20px 10px;
- background-color: rgb(209, 209, 209);
+ background-color: #d1d1d1;
  width: 66%;
  height: 600px;
  float: left;
@@ -142,8 +140,8 @@ aside {
 .newsletter {
  float: left;
  height: 960px;
- border-top: 1px solid rgb(215, 215, 215);
- border-bottom:  1px solid rgb(215, 215, 215);
+ border-top: 1px solid #d7d7d7;
+ border-bottom:  1px solid #d7d7d7;
  padding: 20px;
 }
 
@@ -154,14 +152,14 @@ aside {
 .blog-posts {
 float: left;
 height: 1000px;
-border:  1px solid rgb(215, 215, 215);
+border:  1px solid #d7d7d7;
 }
 
 .sign-up {
  float: none;
  height: 960px;
- border-top:  1px solid rgb(215, 215, 215);
- border-bottom:  1px solid rgb(215, 215, 215);
+ border-top:  1px solid #d7d7d7;
+ border-bottom:  1px solid #d7d7d7;
  padding: 20px;
 }
 
@@ -178,7 +176,7 @@ border:  1px solid rgb(215, 215, 215);
 
 .blog-post-1 {
  height: 460px;
- border-bottom: 1px solid rgb(215, 215, 215);
+ border-bottom: 1px solid #d7d7d7;
  padding: 20px;
 }
 
