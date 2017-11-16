@@ -1,0 +1,175 @@
+*
+{
+  background-color:#D3D3D3;
+}
+
+.submit-button
+{
+  border-radius: 25px;
+  width: 80px;
+  height: 25px;
+  background-color: white;
+}
+
+.submit-box
+{
+  background-color: white;
+}
+
+/*header*/
+#logo {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  width:140px;
+}
+
+#contact-label
+{
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+#contact-label p
+{
+  margin-left: 120px;
+}
+
+/*navbar*/
+nav
+{
+  background-color: #F0F0F0;
+  margin: 10px 20px;
+  height: 35px;
+}
+
+nav ul
+{
+  margin: 0;
+  list-style-type: none;
+  background-color: #F0F0F0;
+  padding: 10px 0 0 10px;
+  position: relative;
+}
+
+nav ul li
+{
+  display: inline;
+  background-color: #F0F0F0;
+  padding-right: 10px;
+  padding-left: 5px;
+  border-right: 1px solid grey;
+  padding-top: 9px;
+  top: 10px;
+  padding-bottom: 6px;
+}
+
+nav a
+{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/*top section*/
+.top-section
+{
+  margin-top: 20px;
+}
+
+.slideshow
+{
+  float: left;
+  width: 60%;
+  height: 200px;
+  background-color: #A9A9A9;
+  margin-left: 20px;
+}
+
+.slideshow-text
+{
+  position: relative;
+  top: 80px;
+  text-align: center;
+  background-color: #A9A9A9;
+}
+
+aside
+{
+  float: right;
+  position: absolute;
+  right: 20px;
+  width: 30%;
+}
+
+/*bottom section*/
+.bottom-section
+{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 20px 20px 0;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.newsletter
+{
+  /*float: left;*/
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.newsletter:nth-child(2)
+{
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+/*  temporary solution to borders not being long enough
+*/  height: 426px; 
+
+}
+
+.newsletter a
+{
+  float:right;
+}
+
+.newsletter span
+{
+  font-weight: bold;
+}
+.blog-post img
+{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin: 0 15px 15px 0;
+}
+
+
+
+/*footer*/
+footer
+{
+  margin-left: 20px;
+  bottom: 20px;
+}
+
+.clearfix:before, .clearfix:after 
+{
+  content: " ";
+  display: table;
+}
+
+.clearfix:after 
+{
+  clear: both;
+}
+
+.clearfix 
+{
+  *zoom: 1;
+}
