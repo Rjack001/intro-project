@@ -4,8 +4,14 @@ body{
   font-size: 16px
 }
 
+<<<<<<< HEAD
 img{
   width: 100%;
+=======
+img {
+  text-align: center;
+  vertical-align: middle;
+>>>>>>> 94b71e74dcfbe808447abb4264a30991a4669c96
 }
 
 main{
@@ -22,7 +28,7 @@ main{
   width: 153px;
   height: 60px;
   float: left;
-  margin-top: 15px
+  margin-top: 15px;
 }
 
 .clearfix:before,
@@ -47,6 +53,10 @@ nav a{
 
 button{
   border-radius: 15px;
+<<<<<<< HEAD
+=======
+  background-color: #ffffff;
+>>>>>>> 94b71e74dcfbe808447abb4264a30991a4669c96
 }
 
 input{
@@ -70,11 +80,18 @@ input{
   margin-top: 15px;
 }
 
-.hero-img{
+.hero-div{
   width: 1023px;
   height: 350px;
   background-color: ;
   overflow: hidden;
+}
+
+.hero-img{
+  min-width: 1023px;
+  height: 350px;
+  line-height: 350px;
+  background-color: #bada55;
 }
 
 .hero .layout{
@@ -120,6 +137,11 @@ h5 span{
   /*background-color: #bada55;*/
 }
 
+.announcement-img img{
+  min-width: 461px;
+  line-height: 250px;
+}
+
 .blog-post{
   position: relative;
 }
@@ -135,8 +157,8 @@ h5 span{
   margin: 0 15px 15px 0;
   /*background-color: #bada55;*/
   float: left;
+  line-height: 50px;
 }
-
 
 .subscribe input{
   margin-bottom: 15px;
