@@ -1,6 +1,5 @@
 body {
   background-color: rgb(222,222,222);
-  position: absolute;
   font-family: sans-serif;
 }
 
@@ -29,7 +28,6 @@ main{
   box-sizing: border-box;
   margin: 10px;
   text-align: center;
-
 }
 
 aside {
@@ -41,7 +39,6 @@ aside {
   padding: 20px;
   padding-right: 50px;
   text-align: left;
-
 }
 
 p {
@@ -51,7 +48,6 @@ p {
 }
 
 footer {
-  position: absolute;
   bottom: 0;
   padding-top: 10px;
   height: 50px;
@@ -62,9 +58,13 @@ footer {
   letter-spacing: 50%;
 }
 
-a {
-  color: blue;
+.button {
+  border: black 1px solid;
+  border-radius: 10px;
+  background-color: white;
 }
+
+/* clearfix */
 
 .clearfix:before,
 .clearfix:after {
@@ -79,6 +79,8 @@ a {
 .clearfix {
   *zoom: 1;
 }
+
+/*header*/
 
 .logo-box {
   background-color: rgb(212,212,212);
@@ -105,12 +107,6 @@ a {
   top: 75px;
 }
 
-.button {
-  border: black 1px solid;
-  border-radius: 10px;
-  background-color: white;
-}
-
 .header-links {
   position: relative;
   float: right;
@@ -118,7 +114,6 @@ a {
   padding-left: 20px;
   margin-top: 20px;
   text-decoration: none;
-  color: blue;
   font-size: 13px;
   top:30px;
 }
@@ -134,18 +129,20 @@ a {
     display: inline;
     border-right: solid rgb(212,212,212) 1px;
     padding: 15px 10px 10px;
+}
 
+.main-navigation li a{
+  text-decoration: none;
+  color: black;
 }
 
 .nav-tabs {
-margin-left: -20px;
-
+  padding-left: 0;
 }
 
 .slideshow {
-  margin-top: 10px;
-  position: relative;
-  min-width: 66%;
+  margin-top 10px;
+  width: 66%;
   background-color: rgb(212,212,212);
   float: left;
   height: 350px;
@@ -163,14 +160,15 @@ margin-left: -20px;
   box-sizing: border-box;
   width: 33%;
   padding: 15px;
-  border-right: solid 1px rgb(212,212,212);
-  border-top: solid 1px rgb(212,212,212);
+  border: solid 1px rgb(212,212,212);
   float: left;
-  border-bottom: solid rgb(212,212,212) 1px;
+
 }
+
 .from-the-blog, .sign-up {
   padding-top: 0px;
 }
+
 
 .newsletter h4{
   display: inline;
@@ -183,8 +181,12 @@ margin-left: -20px;
   background-color: rgb(208,208,208);
 }
 
-.newsletter span{
+.newsletter a{
   float:right;
+}
+
+.date {
+  /* class not used for styling */
 }
 
 .from-the-blog h5{
@@ -199,7 +201,6 @@ margin-left: -20px;
 }
 
 .blog-img{
- position: relative;
   width : 70px;
   height: 70px;
   margin-right: 10px;
@@ -211,17 +212,9 @@ margin-left: -20px;
 .from-the-blog-link {
   float:right;
 }
-
+/* middle border for middle pane */
 .lower {
   border-top: solid 1px rgb(212,212,212);
-}
-
-.blog-content {
-  z-index: 1;
-}
-
-.blog-text{
-  z-index: 2;
 }
 
 .sign-up-form{
