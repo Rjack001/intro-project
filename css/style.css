@@ -61,7 +61,7 @@ footer {
 .button {
   border: black 1px solid;
   border-radius: 10px;
-  background-color: white;
+  background-color: #fff;
 }
 
 /* clearfix */
