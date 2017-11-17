@@ -1,0 +1,113 @@
+body{
+  background-color: #d2d2d2
+}
+
+ul{
+  padding: 0;
+}
+
+img{
+  width:100%
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+h1{
+  font-size: 1.5em;
+  color: #ac0d0d;
+  margin-top: 0;
+}
+
+h2{
+  font-size: 1.2em;
+}
+
+h3{
+  font-size: .9em;
+}
+
+.temp{
+  background-color: #bada55;
+}
+
+.login-nav li{
+  list-style: none;
+  width: 48%;
+  text-align: center;
+}
+
+.login-nav{
+  margin-top: 25px;
+}
+
+.login-nav button{
+  border-radius: 5px;
+  border: 0;
+}
+
+.service-nav{
+  height: 35px;
+  line-height: 35px;
+  margin-top: 15px;
+  background-color: #dedede;
+}
+
+.service-nav li{
+  width: 9%;
+  text-align: center;
+}
+
+.hero-banner{
+  margin-top: 25px;
+}
+
+.hero-img{
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+.hero-article{
+  padding-left: 20px;
+  padding-right: 0;
+}
+
+.hero-article p{
+  line-height: 2;
+}
+
+.newsletter{
+  margin-top: 25px;
+  border-top: 1px solid #b9b9b9;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+.blog-holder{
+  padding: 0 33px 25px;
+}
+
+.blog-holder:nth-child(2){
+  border-right: 1px solid #b9b9b9;
+  border-left: 1px solid #b9b9b9;
+}
+
+.blog-article{
+  padding: 0;
+}
+
+.blog-article img{
+  width: 50px;
+  height: 50px;
+  margin: 0 15px 15px 0;
+}
+
+form input{
+  margin-bottom: 10px;
+}
+
+footer{
+  margin-top: 25px;
+  font-size: .7em;
+}
