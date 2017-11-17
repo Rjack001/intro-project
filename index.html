@@ -3,9 +3,98 @@
   <head>
     <meta charset="utf-8">
     <title>Bootstrap Assignment</title>
-    <link rel="stylesheet" href="/css/bootstap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-2 logo">
+          <img src="logo.jpg" alt="Here's my logo">
+        </div>
+        <div class="col-md-3 col-md-offset-7 header-navigation">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-4">
+              <a href="#">Contact Us</a>
+              <a href="#">Login</a>
+            </div>
+            <div class="col-md-12">
+              <form action="">
+                <input type="text">
+                <button>Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <nav class="row">
+        <div class="col-md-12">
+          <a href="#about_us">About Us</a>
+          <a href="#approach">Our Approach</a>
+          <a href="#our_work">Our Work</a>
+          <a href="#clients">Clients</a>
+          <a href="#resources">Resources</a>
+        </div>
+      </nav>
+
+      <section class="row hero">
+        <div class="col-md-8 hero-slideshow">
+          <img src="" class="hero-img" alt="[Slideshow]">
+        </div>
+        <aside class="col-md-4 ">
+          <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit ante lorem, sagittis tincidunt magna aliquam et</h1>
+          <p>Nunc ultrices, nunc ac tempor blandit, arcu elit pharetra ipsum, id faucibus nibh diam ac orci. Aliquam nisi felis, iaculis sit amet tincidunt quis, efficitur at tellus. Sed scelerisque auctor magna, at placerat justo eleifend eu. Vivamus dolor lacus, ultricies a faucibus vestibulum, interdum eget sapien. Duis at lacinia libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <a href="#">Read More</a>
+        </aside>
+      </section>
+
+      <section class="row news">
+        <div class="col-md-4 news">
+          <h3>Newsletter | <span>January, 2011</span></h3>
+          <h2>Newsletter Title</h2>
+          <div class="announcement-img">
+            <img src="" alt="[IMG]">
+          </div>
+          <p>Nunc ultrices, nunc ac tempor blandit, arcu elit pharetra ipsum, id faucibus nibh diam ac orci. Aliquam nisi felis, iaculis sit amet tincidunt quis, efficitur at tellus. Sed scelerisque auctor magna, at placerat justo eleifend eu. Vivamus dolor lacus, ultricies a faucibus vestibulum, interdum eget sapien. Duis at lacinia libero. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <a href="">Read More</a>
+        </div>
+        <div class="col-md-4 blog-posts">
+          <h3>From the blog</h3>
+          <div class="row blog-post">
+            <div class="col-md-12">
+              <h2>Blog Post Title</h2>
+              <p>January 1, 2011 by <a href="#">John</a></p>
+              <div class="blog-post">
+                <p><img class="blog-post-img" src="" alt="img">Nunc ultrices, nunc ac tempor blandit, arcu elit pharetra ipsum, id faucibus nibh diam ac orci. Aliquam nisi felis, iaculis sit amet tincidunt quis, efficitur at tellus. Sed scelerisque auctor magna, at placerat justo eleifend eu. Vivamus dolor lacus, Aliquam nisi felis, iaculis sit amet tincidunt quis, efficitur at tellus. Sed scelerisque auctor magna, at placerat justo eleifend eu. Vivamus dolor lacus <span> <a href="#">Read More</a></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="row blog-post">
+            <div class="col-md-12">
+              <h2>Blog Post Title</h2>
+              <p>January 1, 2011 by <a href="#">John</a></p>
+              <div class="blog-post">
+                <p><img class="blog-post-img" src="" alt="img">Nunc ultrices, nunc ac tempor blandit, arcu elit pharetra ipsum, id faucibus nibh diam ac orci. Aliquam nisi felis, iaculis sit amet tincidunt quis, efficitur at tellus. Sed scelerisque auctor magna, at placerat justo eleifend eu. Vivamus dolor lacus, Aliquam nisi felis, iaculis sit amet tincidunt quis, efficitur at tellus. Sed scelerisque auctor magna, at placerat justo eleifend eu. Vivamus dolor lacus <span> <a href="#">Read More</a></span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 sign-up">
+          <h2>Sign Up</h2>
+          <p>Nunc ultrices, nunc ac tempor blandit</p>
+          <form class="subscribe">
+            <input type="text" value="Your Name"><br>
+            <input type="text" value="your Email Address"><br>
+            <button>Submit</button>
+          </form>
+        </div>
+      </section>  <!-- end news -->
+      <footer>
+        <p>&copy; 2011 Your Company | New York, NY | 834-324-9901</p>
+        <p>Nunc ultrices, nunc ac tempor blandit,</p>
+        <p>Sed scelerisque auctor magna, at placerat justo eleifend</p>
+      </footer>
+    </div>
   </body>
 </html>

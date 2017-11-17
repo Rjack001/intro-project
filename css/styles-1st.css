@@ -1,0 +1,162 @@
+body{
+  background-color: #dedede;
+  font-family: helvetica, arial;
+  font-size: 16px
+}
+
+img {
+  text-align: center;
+  vertical-align: middle;
+}
+
+main{
+  width: 1538px;
+  margin:0 auto;
+}
+
+.header-navigation{
+  margin-top: 35px;
+  float: right;
+}
+
+.logo{
+  width: 153px;
+  height: 60px;
+  background-color: #6bd510;
+  float: left;
+  margin-top: 15px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+nav a{
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+button{
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+input{
+  border: 1px solid black;
+}
+
+.navigator{
+  background-color: #E8E8E8;
+  height: 28px;
+  margin-top: 10px;
+}
+
+.navigator a{
+  margin: 0 10px;
+  float: left;
+  border-right: 1px solid #cfcbcb;
+  padding: 5px 20px 5px 5px;
+}
+
+.hero{
+  margin-top: 15px;
+}
+
+.hero-div{
+  width: 1023px;
+  height: 350px;
+  background-color: #bada55;
+}
+
+.hero-img{
+  min-width: 1023px;
+  height: 350px;
+  line-height: 350px;
+  background-color: #bada55;
+}
+
+.hero .layout{
+  float: left;
+}
+
+.hero aside{
+  width: 479px;
+  margin-left: 36px;
+}
+
+.news{
+  margin-top: 30px;
+  border-top: 1px solid #cfcbcb;
+  border-bottom: 1px solid #cfcbcb;
+  padding: 0 10px;
+}
+
+.announcements{
+  width: 461px;
+  height: 580px;
+  padding: 22px 22px 0 22px;
+  /*margin-bottom: 22px;*/
+  float: left;
+}
+
+.announcements:nth-child(2){
+  border-left:1px solid #cfcbcb;
+  border-right:1px solid #cfcbcb;
+}
+
+h5, h4{
+  font-weight: bold;
+}
+
+h5 span{
+  font-weight: normal;
+}
+
+.announcement-img{
+  height: 250px;
+  margin: 5px 0;
+  background-color: #bada55;
+}
+
+.announcement-img img{
+  min-width: 461px;
+  line-height: 250px;
+}
+
+.blog-post{
+  position: relative;
+}
+
+.blog-post span{
+  margin-left: 20px;
+  text-align: right;
+}
+
+.blog-post-img{
+  width: 50px;
+  height: 50px;
+  margin: 0 15px 15px 0;
+  background-color: #bada55;
+  float: left;
+  line-height: 50px;
+}
+
+.subscribe input{
+  margin-bottom: 15px;
+}
+
+footer{
+  margin:20px 0;
+  font-size: 12px;
+}
