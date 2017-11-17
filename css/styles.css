@@ -1,0 +1,55 @@
+body {
+  background-color: #dedede;
+}
+
+.main {
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 10px;
+}
+
+nav li {
+  border-right: 1px solid #d0d0d0;
+}
+
+.header-right {
+  padding: 0;
+}
+
+.image {
+  background-color: #d0d0d0;
+}
+
+.image-large {
+  height: 250px;
+}
+
+.image-small {
+  width: 16%;
+  height: 60px;
+  float: left;
+  margin-right: 5px;
+}
+
+.blogs {
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+}
+
+.newsdate {
+  font-weight: normal;
+}
+
+.readmore {
+  float: right;
+}
+
+.signup input {
+  margin-bottom: 5px;
+}
+
+footer, .blog2 {
+  border-top: 1px solid #d0d0d0;
+  padding-top: 10px;
+}
+
+/* Add h1 headers, ems etc */
