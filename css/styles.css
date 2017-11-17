@@ -1,0 +1,25 @@
+
+.body
+{
+  /*background-color:#D3D3D3;*/
+    background-color:#D3D3D3;
+}
+
+
+.slideshow{
+  border: 1px solid grey;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.sidebar{
+    /*display: inline-block;*/
+}
+
+/*div.bg-blue{
+
+}
+
+div.bg-pink{
+
+}*/
