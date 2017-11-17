@@ -1,0 +1,148 @@
+/*generics*/
+body
+{
+	background-color: #DEDEDE;
+} 
+
+section
+{
+	margin-top: 1em;
+}
+.container
+{
+	margin-top: 1em;
+}
+
+
+.submit-button
+{
+  border-radius: 25px;
+  background-color: white;
+}
+
+.submit-box
+{
+  background-color: white;
+}
+
+
+/*header*/
+.logo-box
+{
+	width: 150px;
+	height: 70px;
+	background-color: #D0D0D0;
+	color: #787878;
+	text-align: center;
+}
+
+h1
+{
+	padding: 1em 0 0 0;
+	line-height: 0;
+	font-size: 20px;
+}
+
+h2
+{
+	padding: 0.5em 0 0 0;
+	line-height: 0;
+	font-size: 15px;
+}
+
+.utility
+{
+	text-align: right;
+}
+
+/*navigation bar*/
+nav
+{
+	padding-left: 0;
+	background-color: #E9E9E9;
+	height: 2em;
+
+}
+
+.nav /*created this class only because I needed to override row*/
+{
+	margin: 1em 0;
+}
+nav a
+{
+	border-right: 1px solid lightgrey;
+	font-weight: bold;
+	font-size: 65%;
+	text-align: center;
+	padding: 1em 0;
+	color: #333333;
+}
+
+/*slideshow*/
+.slideshow img
+{
+	width: 100%;
+}
+
+h3
+{
+	font-size: 120%;
+	font-weight: bold;
+}
+
+/*main section*/
+.main-section
+{
+	border-top: 2px solid lightgrey;
+	border-bottom: 2px solid lightgrey;
+	padding: 1em 0; 
+}
+
+
+
+/*newsletter*/
+.newsletter span
+{
+	font-weight: bold;
+}
+
+.newsletter img
+{
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+h4
+{
+	font-weight: bold;
+}
+
+.newsletter a
+{
+	float: right;
+}
+/*blog*/
+h5
+{
+	font-weight: bold;
+}
+
+.blog img
+{
+	padding-top: 5px;
+	margin-right: 5px;
+	width: 50px;
+	float: left;
+}
+.blog-link
+{
+	float: right;
+}
+
+
+
+/*footer*/
+footer
+{
+	margin-top: 2em;
+}
