@@ -7,6 +7,9 @@ div.bg-blue{
 div.bg-pink{
   background-color: pink;
 }
+footer {
+  margin:10px;
+}
 .backgroundcolor{
   background-color: gray;
 }
@@ -17,4 +20,24 @@ div.bg-pink{
 
 .bg-green{
   background-color:green;
+}
+.bold{
+  font-weight: 600;
+}
+.center-text{
+  text-align: center;
+  padding-top: 150px;
+  vertical-align: middle;
+  height: 300px;
+
+}
+.wrap-text {
+  float: left;
+  clear: right;
+}
+.margin-page{
+  padding:10px;
+}
+.light-border{
+  border: 1px solid #eaeaea;
 }
