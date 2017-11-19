@@ -88,6 +88,10 @@ h3{
   margin-top: 15px;
 }
 
+.newsletter-article h3{
+  margin-top: 4px;;
+}
+
 .blog-holder{
   padding: 0 25px 25px;
 }
