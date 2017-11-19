@@ -1,33 +1,76 @@
+  /* Generics */
+
 body {
   background-color: #dedede;
 }
 
-.main {
-  border-bottom: 1px solid #d0d0d0;
-  padding-bottom: 10px;
+h1 {
+  font-size: 1.8em;
+  margin-top: 0.6em;
 }
 
-nav li {
-  border-right: 1px solid #d0d0d0;
+h2 {
+  font-size: 1.2em;
 }
 
-.header-right {
-  padding: 0;
+h3 {
+  font-size: 1.1em;
 }
+
+  /* Images */
 
 .image {
   background-color: #d0d0d0;
 }
 
+.logo {
+  width: 14em;
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+  color: #808080;
+}
+
+.logo h2 {
+  margin-top: 0;
+}
+
 .image-large {
-  height: 250px;
+  height: 18em;
+  line-height: 18em;
 }
 
 .image-small {
-  width: 16%;
-  height: 60px;
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
   float: left;
-  margin-right: 5px;
+  margin-right: 0.4em;
+}
+
+  /* Header */
+
+.header-right {
+  padding-top: 2em;
+  padding-right: 0;
+}
+
+  /* Navbar */
+
+nav li {
+  border-right: 1px solid #d0d0d0;
+}
+
+  /* Slideshow Row */
+
+.main {
+  border-bottom: 1px solid #d0d0d0;
+  padding-bottom: 0.6em;
+}
+
+  /* Newsletter & Blog Row */
+
+.newsdate {
+  font-weight: normal;
 }
 
 .blogs {
@@ -35,21 +78,17 @@ nav li {
   border-right: 1px solid #d0d0d0;
 }
 
-.newsdate {
-  font-weight: normal;
-}
-
-.readmore {
-  float: right;
+.blog2 {
+  border-top: 1px solid #d0d0d0;
 }
 
 .signup input {
-  margin-bottom: 5px;
+  margin-bottom: 0.4em;
 }
 
-footer, .blog2 {
+  /* Footer */
+
+footer {
   border-top: 1px solid #d0d0d0;
-  padding-top: 10px;
+  padding-top: 0.7em;
 }
-
-/* Add h1 headers, ems etc */

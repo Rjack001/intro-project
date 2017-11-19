@@ -7,24 +7,22 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <div class="container">
+  <div class="container">   <!-- Container required for Bootstrap -->
     
     <header class="row">
-      <div class="image text-center col-md-3">
-        <h3>YourSite.com</h3>
-        <h5>Website Prototype</h5>
+      <div class="image logo text-center col-md-3">
+        <h1>YourSite.com</h1>
+        <h2>Website Prototype</h2>
       </div>
-      <div class="header-right col-md-4 col-md-offset-5">
+      <div class="col-md-4 pull-right header-right">
         <ul class="nav navbar-nav navbar-right">
           <li><a href="javascript:void(0);">Contact Us</a></li>
           <li><a href="javascript:void(0);">Log In</a></li>
         </ul>
-        <form class="navbar-form navbar-right">
-          <div class="form-group">
-            <input type="text" class="form-control">
-          </div>
-          <button type="submit" class="btn btn-default">Search</button>
-        </form>   
+        <form class="pull-right" action="">
+          <input type="search">
+          <button>Search</button>
+        </form>
       </div>
     </header>
     
@@ -39,12 +37,12 @@
     </nav>
     
     <section class="main row">
-      <div class="image image-large text-center col-md-8">
-        <p><em>[slideshow]</em></p>
+      <div class="image image-large col-md-8">
+        <p class="text-center"><em>[slideshow]</em></p>
       </div>
       
       <aside class="col-md-4">
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt</h4>
+        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt</h2>
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullam corper suscipit lobortis nisi ut aliquip ex ea commodo consequat.</p>
         <a href="javascript:void(0);">Read More</a>
       </aside>
@@ -53,37 +51,37 @@
     <div class="row">
       
       <section class="col-md-4">
-        <h5>Newsletter <span class="newsdate">| January, 2011</span></h5>
-        <h4>Newsletter Title</h4>
-        <div class="image image-large text-center">
-          <p><em>[img]</em></p>
+        <h3>Newsletter <span class="newsdate">| January, 2011</span></h3>
+        <h2>Newsletter Title</h2>
+        <div class="image image-large">
+          <p class="text-center"><em>[img]</em></p>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullam corper suscipit lobortis nisi ut aliquip ex ea commodo consequat...<a class="readmore" href="javascript:void(0);">Read More</a></p>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullam corper suscipit lobortis nisi ut aliquip ex ea commodo consequat...<a class="pull-right" href="javascript:void(0);">Read More</a></p>
       </section>
       
       <section class="blogs col-md-4">
-        <h5>From the Blog</h5>
+        <h3>From the Blog</h3>
         <article>
-          <h4>Blog Post Title</h4>
+          <h2>Blog Post Title</h2>
           <p>January 1, 2011 by <a href="javascript:void(0);">John</a></p>
-          <div class="image image-small text-center">
-            <p><em>[img]</em></p>
+          <div class="image image-small">
+            <p class="text-center"><em>[img]</em></p>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper...<a class="readmore" href="javascript:void(0);">Read More</a></p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper...<a class="pull-right" href="javascript:void(0);">Read More</a></p>
         </article>
         
         <article class="blog2">
-          <h4>Blog Post Title</h4>
+          <h2>Blog Post Title</h2>
           <p>January 1, 2011 by <a href="javascript:void(0);">John</a></p>
-          <div class="image image-small text-center">
-            <p><em>[img]</em></p>
+          <div class="image image-small">
+            <p class="text-center"><em>[img]</em></p>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper...<a class="readmore" href="javascript:void(0);">Read More</a></p>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat. Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper...<a class="pull-right" href="javascript:void(0);">Read More</a></p>
         </article>   
       </section>
       
       <section class="signup col-md-4">
-        <h4>Sign Up</h4>
+        <h2>Sign Up</h2>
         <p>Lorem ipsum dolor sit amet, consectetuer</p>
         <form action="">
           <input type="text" name="username" placeholder="Your Name"><br>
@@ -99,9 +97,8 @@
         <p><small>&copy; 2011 Your Company | New York, NY | 800-123-4567<br>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh euismod tincidunt ut<br>
           lacreet dolore magna aliguam erat volutpat.</small></p>
-        </div>
-      </footer>
-      
+       </div>
+     </footer>
       
     </div>
   </body>
