@@ -96,7 +96,7 @@ nav a
 	padding: 1em 0;
 	color: #333333;
 	text-decoration: none;
-	text-shadow: 0 0 0 black;
+	text-shadow: 0 0 1px black;
 }
 
 /*slideshow*/
