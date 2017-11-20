@@ -1,0 +1,140 @@
+.container-fluid {
+  background-color: #dedede;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.inner-container {
+  margin: 0 10px;
+}
+
+h1 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+div.header, div.do-something {
+  height: 140px;
+}
+
+div.bg-pink {
+  background-color: pink;
+  height: 600px;
+}
+
+div.navigate {
+
+}
+
+div.slideshow-container {
+  background-color: darkgray;
+  height: 400px;
+  margin-top: 20px;
+}
+
+div.slideshow-aside-container {
+  margin-top: 20px;
+}
+
+div.article {
+  margin-top: 20px;
+  height: 600px;
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+}
+
+.logo-container {
+  position: absolute;
+  top: 25px;
+  color: grey;
+  background-color: #d7d7d7;
+  width: 200px;
+  text-align: center;
+  padding: 5px 0;
+  margin-bottom: auto;
+}
+
+.do-something-container {
+  margin-top: 35px;
+  height: 80px;
+  width: 380px;
+  float: right;
+  padding-top: 33px;
+}
+
+.login li {
+  float: right;
+  display: inline;
+  padding-left: 20px;
+}
+
+.search-box {
+  float: right;
+  margin-top: 10px;
+  /*margin-bottom: none;*/
+}
+
+.input {
+  box-shadow:inset 0 1px 0 0 #888;
+}
+
+.submit-button {
+  background: #f5f5f5;
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: none;
+  text-shadow: none;
+  margin-left: 15px;
+}
+
+.navigate {
+  background: #f5f5f5;
+}
+
+.navlink {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #e6e6e6;
+}
+
+.slideshow-photos {
+  background-color: #b7b7b7;
+  width: 100%;
+  line-height: 400px;
+  width: 800px;
+  text-align: center;
+}
+
+.blog-post-1 {
+  border-left: solid 1px lightgray;
+  border-right: solid 1px lightgray;
+}

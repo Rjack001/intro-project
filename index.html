@@ -3,9 +3,113 @@
   <head>
     <meta charset="utf-8">
     <title>Bootstrap Assignment</title>
-    <link rel="stylesheet" href="/css/bootstap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <div class="container-fluid">
+    <div class="inner-container">
+
+<!--Header row-->
+      <header class="row">
+        <div class="col-md-7 header">
+          <section class="header-container">
+            <article class="logo-container">
+              <h1>YourSite.com</h1>
+              <h2>Website Prototype</h2>
+            </article>
+          </section>
+        </div>
+        <div class="col-md-5 do-something">
+          <section class="do-something">
+            <article class="do-something-container">
+              <ul class="login">
+                <li><a href="javascript:void(0);">Log In</a></li>
+                <li><a href="javascript:void(0);">Contact Us</a></li>
+              </ul>
+
+              <form class="search-box">
+                <input class="input" type="text" name="search-input">
+                <input class="submit-button" type="submit" name="search-button" value="Search">
+              </form>
+            </article>
+          </section>
+        </div>
+      </header><!--End of Header row-->
+
+<!--Navigation row-->
+      <nav class="row">
+        <section class="navigate">
+          <div class="col-md-12 navigate">
+            <a class="navlink" href="javascript:void(0);">About Us</a>
+            <a class="navlink" href="javascript:void(0);">Our Approach</a>
+            <a class="navlink" href="javascript:void(0);">Our Work</a>
+            <a class="navlink" href="javascript:void(0);">Clients</a>
+            <a class="navlink" href="javascript:void(0);">Resources</a>
+          </div>
+        </section>
+      </nav><!--End of Navigation row-->
+
+<!--Slideshow row-->
+      <section class="row">
+        <div class="col-md-8 slideshow-container">
+          <img class="slideshow-photos" src="" alt="[Slideshow]">
+        </div>
+        <div class="col-md-4 slideshow-aside-container">
+          <aside class="slideshow-narratives">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi...</p>
+            <a href="javascript:void(0);">Read More</a>
+          </aside>
+        </div>
+      </section><!--End of Slideshow row-->
+
+<!--Article row-->
+      <section class="row">
+        <div class="col-md-4 article">
+          <article class="newsletter">
+            <h3>Newsletter <span class="date">| January 11</span></h3>
+            <h2>Newsletter Title</h2>
+            <img src="" alt="[img]">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse... Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui...<a class="article-link" href="javascript:void(0);">Read More</a></p>
+          </article>
+        </div>
+
+        <div class="col-md-4 article">
+          <article class="blog-post-1">
+            <h3>From the Blog</h3>
+            <h2>Blog Post Title</h2>
+            <h3><span class="date">January 1, 2011 by <a href="#">John</a></span></h3>
+            <p><img src="" alt="[img]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a class="article-link" href="javascript:void(0);">Read More</a></p>
+          </article>
+          <article class="blog-post-1">
+            <h3>From the Blog</h3>
+            <h2>Blog Post Title</h2>
+            <h3><span class="date">January 1, 2011 by <a href="#">John</a></span></h3>
+            <p><img src="" alt="[img]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a class="article-link" href="javascript:void(0);">Read More</a></p>
+          </article>
+        </div>
+
+        <div class="col-md-4 article">
+          <form class="sign-up" action="index.html" method="post">
+            <form class="sign-up" action="index.html" method="post">
+              <h2>Sign Up</h2>
+              <p>Call to action.</p>
+              <input class="input" type="text" name="Your Name" placeholder="Your Name"><br /><br />
+              <input class="input" type="text" name="Your Email Address" placeholder="Your Email Address"><br /><br />
+              <input class="submit-button" type="submit" name="sign-up-submit" value="Submit">
+            </form>
+        </div>
+      </section><!--End of Article row-->
+
+<!--Footer row-->
+      <div class="col-md-12 bg-purple">
+        <footer>
+          <p>&copy; 2011 Your Company | New York, NY | 800-123-4567</p>
+          <p>Content of footer.</p></footer>
+      </div>
+    </div>
+    </div>
   </body>
 </html>
