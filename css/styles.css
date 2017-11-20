@@ -8,6 +8,11 @@ section
 {
 	margin-top: 1em;
 }
+
+a
+{
+	text-decoration: underline;
+}
 .container
 {
 	margin-top: 1em;
@@ -64,6 +69,11 @@ h2
 	top: 30px;
 }
 
+.utility a
+{
+	text-decoration: none;
+}
+
 /*navigation bar*/
 nav
 {
@@ -85,6 +95,8 @@ nav a
 	text-align: center;
 	padding: 1em 0;
 	color: #333333;
+	text-decoration: none;
+	text-shadow: 0 0 0 black;
 }
 
 /*slideshow*/
