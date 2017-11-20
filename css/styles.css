@@ -43,9 +43,11 @@ h3{
   margin-top: 25px;
 }
 
-.login-nav button{
+.btn{
   border-radius: 5px;
   border: 0;
+  font-size: 0.7em;
+  padding: 0.4em .8em;
 }
 
 .service-nav{
