@@ -37,6 +37,10 @@ h3 {
   font-weight: bold;
 }
 
+p {
+  line-height: 1.6;
+}
+
 div.header, div.do-something {
   height: 140px;
 }
@@ -134,7 +138,49 @@ div.article {
   text-align: center;
 }
 
-.blog-post-1 {
+.newsletter {
+  padding: 20px;
+}
+
+.newsletter-img-container {
+  background-color: darkgray;
+  height: 300px;
+  width: 100%;
+}
+
+.newsletter img {
+  line-height: 300px;
+  text-align: center;
+}
+
+a.article-link {
+  float: right;
+}
+
+.blog-posts {
+  height: 600px;
   border-left: solid 1px lightgray;
   border-right: solid 1px lightgray;
+  padding: 20px;
+}
+
+.blog-post-1 {
+  margin-bottom: 40px;
+}
+
+.blog-post-2 {
+  border-top: solid 1px lightgray;
+}
+
+.sign-up {
+  padding: 20px;
+}
+
+.date {
+  font-weight: normal;
+}
+
+footer {
+  margin-top: 20px;
+  /*margin-left: 30px;*/
 }
