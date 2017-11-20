@@ -1,19 +1,150 @@
-h1 {  color:white; }
-
-.bg-blue { background-color: blue;}
-.bg-pink { background-color: pink; }
-.bg-orange { background-color: orange;}
-.bg-yellow { background-color: yellow;}
-.bg-red {background-color: red;}
 
 body {
-  background-color: #DEDEDE;
+  background-color: #000;
+  font-family: sans-serif;
+  font-size: 12px;
 }
 header {padding: 10px;}
 
-.logo { background-color: #DEDEDE;}
-.search { float: right;}
+input {background-color: #fff;}
+
+h1 {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+h2 {font-size: 1.5em;}
+
+hr {margin: 10px; border-color: lightgray;}
+
+footer {padding: 10px;}
+
+.btn {
+
+  width: 75px;
+  padding: 0;
+  height: 25px;
+  border: lightgrey solid 1px;
+  border-radius: 12px;
+}
+.input-box {
+  border-top: inset #888 2px;
+}
+
+.container { background-color: #dedede}
+
+.nav-bar{background-color:#e9e9e9; }
+.nav-bar ul, li {
+  text-decoration: none;
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar li {
+  padding: 2px;
+  border-right: lightgray solid  1px;
+}
+.nav-bar a {
+  color: black;
+  margin: 10px;
+}
+.logo {
+  background-color: lightgrey;
+  width: 180px;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+}
+
+.logo-subtext {font-size: small;letter-spacing: .5px; font-weight: normal;}
+
+.search  { float: right;}
+.search-link {padding:0;}
+.search-link a {float: right;}
+.search a {display: inline;}
 .search-form{float: right;}
-.navbar {background-color: #e9e9e9;}
-.plain-text {font-weight: normal;}
-.newsletter-img {width: 100%; height: 80px;}
+
+.slideshow {
+  position: relative;
+  margin:10px;
+  background-color: lightgray;
+  height: 250px;
+  max-width: 60%;
+}
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slideshow .dev-note  {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  max-width: 50%;
+}
+
+.three-sections {
+  border-top: lightgray solid 1px;
+  border-bottom: lightgray solid 1px;
+}
+
+.three-sections div {
+  padding: 0;
+}
+
+.three-sections header {
+  padding-left: 0;
+}
+.three-sections header:first-of-type {
+  padding-left: 0px;
+}
+.newsletter, .blog, .sign-up {
+  max-width: 390px;
+}
+
+.newsletter p { margin: 10px;}
+.newsletter-img {
+  background-color: lightgray;
+  content: " ";
+  width: 360px;
+  height: 170px;
+  margin-bottom: 5px;
+}
+.newsletter-title h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color:bluegreen;
+}
+.newsletter-title span {
+  font-weight: normal;
+  font-size: 1em;
+}
+
+.blog {
+  border-left: lightgrey solid 1px;
+  border-right: lightgrey solid 1px;
+}
+.blog-element {
+  margin: 0 10px;
+}
+.blog-img {
+  background-color: lightgray;
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin: 0 5px;
+  position: relative;
+}
+
+.lower-link {
+  float: right;
+}
+
+.sign-up form input {
+  margin: 5px;
+}
+
+.dev-note {color: limegreen;float: left;  font-size: .75em;}
+.dev-note span {font-weight: bold;}
