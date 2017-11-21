@@ -1,0 +1,260 @@
+/*fonts*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://fonts.gstatic.com/s/opensans/v15/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/*General styling*/
+body {
+  background-color: #dedede;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
+}
+
+h5 {
+  font-weight: 700;
+}
+
+/*header*/
+header {
+  height: 120px;
+}
+
+.header-left {
+  position: relative;
+  left: 15px;
+  top: 25px;
+  color: grey;
+  background-color: #d7d7d7;
+  width: 200px;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.header-left h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+.header-left h2 {
+  position: relative;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.header-right {
+  height: 60px;
+  width: 300px;
+  float: right;
+  margin-top: 55px;
+}
+
+.login {
+  float: right;
+}
+
+.login li {
+ display: inline;
+}
+
+.login li:first-child {
+  padding-right: 20px;
+}
+
+.login a:link {
+  text-decoration: none;
+  }
+
+.input {
+  margin-left: 10px;
+}
+
+.header-right .submit-button {
+ background: #f5f5f5;
+ color: black;
+ border: 1px solid black;
+ border-radius: 20px;
+ box-shadow: none;
+ text-shadow: none;
+ float: right;
+ margin-left: 12px;
+}
+
+/*NavBar*/
+.nav {
+  background-color: #f2f2f2;
+  height: 35px;
+}
+
+.nav a {
+  height: 35px;
+  width: 120px;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  border-left: 1px solid #dedede;
+  border-right: 1px solid #dedede;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.nav a:nth-child(5) {
+  border-right: 2px solid #dedede;
+}
+
+/*Slideshow and aside*/
+.slideshow section {
+  height: 360px;
+  background-color: #d7d7d7;
+  margin-top: 15px;
+}
+
+.slideshow h2 {
+  font-size: 15px;
+  padding-top: 150px;
+  padding-left: 325px;
+  padding-bottom: 90px;
+}
+
+.slideshow .dev-note {
+  margin-left: 8px;
+}
+
+.dev-note {
+    color:  #33cc33;
+}
+
+.slideshow aside {
+  height: 400px;
+}
+
+.slideshow-narratives h3 {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+/*articles*/
+.articles {
+  border-top: 2px solid #d7d7d7;
+  border-bottom: 2px solid #d7d7d7;
+  height: 522px;
+}
+ .articles section {
+  margin: 20px 0;
+ }
+
+h4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-bottom: 30px;
+}
+
+/*articles-newsletter*/
+.articles .newsletter {
+  height: 500px;
+}
+
+.newsletter img {
+  height: 220px;
+  width: 350px;
+  margin-bottom: 15px;
+}
+
+.article-link {
+  float: right;
+}
+
+/*articles-blogs*/
+.date {
+  font-weight: 400;
+}
+
+.articles .blogs {
+  height: 500px;
+  border-left: 2px solid #d7d7d7;
+  border-right: 2px solid #d7d7d7;
+}
+
+.blog-post-1 {
+  border-bottom: 2px solid #d7d7d7;
+}
+
+.blog-post-1 p {
+  padding-bottom: 20px;
+}
+
+.blog-post-2 {
+  margin-top: 40px;
+}
+
+.blog-post-1 img {
+float: left;
+height: 70px;
+width: 70px;
+margin-right: 15px;
+margin-bottom: 5px;
+}
+
+.blog-post-2 img {
+float: left;
+height: 70px;
+width: 70px;
+margin-right: 15px;
+margin-bottom: 5px;
+}
+
+
+/*articles-sign-up*/
+.articles .sign-up {
+  height: 500px;
+}
+
+.sign-up h4 {
+  font-weight: 700;
+}
+
+.text-input {
+  margin-bottom: 10px;
+}
+
+.sign-up .submit-button {
+ background: #f5f5f5;
+ color: black;
+ border: 1px solid black;
+ border-radius: 20px;
+ box-shadow: none;
+ text-shadow: none;
+ margin-top: 5px;
+ margin-bottom: 15px;
+}
+
+/*footer*/
+.footer {
+  margin: 20px 0;
+  height: 80px;
+}
